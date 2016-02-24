@@ -1,5 +1,8 @@
 module Converter
   class RomanUnit
+    include NamedParams
+
+    cattr_reader :roman_map
 
     # Scheme used in numeral/roman conversion
     @@roman_map = [
@@ -19,7 +22,7 @@ module Converter
     ]
 
     # Converts a roman string to numeral using the roman_map array
-    def self.convert_to_numeral(roman_string)
+    def self.convert_to_numeral(roman_string: required)
       sum = 0
       for key, value in @@roman_map
         while roman_string.index(key) == 0
