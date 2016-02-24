@@ -51,14 +51,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08579089">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="82" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -74,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DESCRICAO.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DESCRICAO.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DESCRICAO.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.615385">
-              <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.9201995">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -134,9 +134,7 @@
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/main.rb" />
         <option value="$PROJECT_DIR$/lib/bin/main" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/converter/roman_unit.rb" />
-        <option value="$PROJECT_DIR$/DESCRICAO.md" />
         <option value="$PROJECT_DIR$/DESCRIPTION.md" />
         <option value="$PROJECT_DIR$/spec/converter/roman_unit_spec.rb" />
         <option value="$PROJECT_DIR$/lib/converter/metal_unit.rb" />
@@ -144,6 +142,8 @@
         <option value="$PROJECT_DIR$/lib/converter.rb" />
         <option value="$PROJECT_DIR$/spec/converter/metal_unit_spec.rb" />
         <option value="$PROJECT_DIR$/spec/converter/space_unit_spec.rb" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/DESCRICAO.md" />
       </list>
     </option>
   </component>
@@ -508,14 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DESCRICAO.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.615385">
-          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/converter/roman_unit.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -585,8 +577,16 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08579089">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DESCRICAO.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9201995">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
