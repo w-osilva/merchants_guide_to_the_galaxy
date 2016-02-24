@@ -4,11 +4,16 @@ describe Converter::RomanUnit do
 
   describe "#convert_to_numeral" do
 
-    context "given an String MCMIII" do
-      subject(:roman_numerals) { 'MCMIII' }
-      it "then must convert to 1903" do
-        expect(Converter::RomanUnit.convert_to_numeral(roman_numerals)).to be 1903
+    subject(:roman_string) { 'MCMXCIX' }
+
+    context "given a :roman_string 'MCMXCIX'" do
+      it 'should convert to 1999' do
+        expect(Converter::RomanUnit.convert_to_numeral(roman_string: roman_string)).to be 1999
       end
+    end
+
+    context "when it does not provide the named parameters expected" do
+      it { expect { Converter::RomanUnit.convert_to_numeral('foo') }.to raise_error(ArgumentError) }
     end
 
   end
